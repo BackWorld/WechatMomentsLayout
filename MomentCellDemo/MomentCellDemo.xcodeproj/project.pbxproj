@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8034C8A8207B703900F0F640 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8034C8A7207B703900F0F640 /* AppDelegate.m */; };
+		8034C8AB207B703900F0F640 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8034C8AA207B703900F0F640 /* ViewController.m */; };
+		8034C8AE207B703900F0F640 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8034C8AC207B703900F0F640 /* Main.storyboard */; };
+		8034C8B0207B703900F0F640 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8034C8AF207B703900F0F640 /* Assets.xcassets */; };
+		8034C8B3207B703900F0F640 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8034C8B1207B703900F0F640 /* LaunchScreen.storyboard */; };
+		8034C8B6207B703900F0F640 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8034C8B5207B703900F0F640 /* main.m */; };
+		8034C8BE207B734A00F0F640 /* MomentTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8034C8BD207B734A00F0F640 /* MomentTextCell.m */; };
+		8034C8C1207B735900F0F640 /* MomentImagesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8034C8C0207B735900F0F640 /* MomentImagesCell.m */; };
+		8034C8C4207B738800F0F640 /* MomentFooterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8034C8C3207B738800F0F640 /* MomentFooterCell.m */; };
+		8034C8C7207B739600F0F640 /* MomentLikeItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8034C8C6207B739600F0F640 /* MomentLikeItemCell.m */; };
+		8034C8CA207B73A500F0F640 /* MomentCommentItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8034C8C9207B73A500F0F640 /* MomentCommentItemCell.m */; };
+		8034C8D1207B755400F0F640 /* MomentShowLocationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8034C8D0207B755400F0F640 /* MomentShowLocationCell.m */; };
+		8034C8D4207B762B00F0F640 /* MomentShareLinkCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8034C8D3207B762B00F0F640 /* MomentShareLinkCell.m */; };
+		8034C8D7207C4A9000F0F640 /* Moment.m in Sources */ = {isa = PBXBuildFile; fileRef = 8034C8D6207C4A9000F0F640 /* Moment.m */; };
+		8034C8DA207C4A9900F0F640 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 8034C8D9207C4A9900F0F640 /* User.m */; };
+		8034C8DD207C4AA500F0F640 /* Comment.m in Sources */ = {isa = PBXBuildFile; fileRef = 8034C8DC207C4AA500F0F640 /* Comment.m */; };
+		8034C8E0207C4C9000F0F640 /* moments.json in Resources */ = {isa = PBXBuildFile; fileRef = 8034C8DF207C4C9000F0F640 /* moments.json */; };
+		8034C8E9207C544E00F0F640 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 8034C8E8207C544E00F0F640 /* Location.m */; };
+		8034C8F3207CBA9300F0F640 /* CellAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8034C8F2207CBA9300F0F640 /* CellAdapter.m */; };
+		8034C8F6207CBF5900F0F640 /* MomentBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8034C8F5207CBF5900F0F640 /* MomentBaseCell.m */; };
+		8034C8F9207DFD8900F0F640 /* MomentAdCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8034C8F8207DFD8900F0F640 /* MomentAdCell.m */; };
+		8034C8FC207E078200F0F640 /* Moment+AdapterMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8034C8FB207E078200F0F640 /* Moment+AdapterMaker.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8034C8A3207B703900F0F640 /* MomentCellDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MomentCellDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8034C8A6207B703900F0F640 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8034C8A7207B703900F0F640 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8034C8A9207B703900F0F640 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8034C8AA207B703900F0F640 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8034C8AD207B703900F0F640 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8034C8AF207B703900F0F640 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8034C8B2207B703900F0F640 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8034C8B4207B703900F0F640 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8034C8B5207B703900F0F640 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8034C8BC207B734A00F0F640 /* MomentTextCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MomentTextCell.h; sourceTree = "<group>"; };
+		8034C8BD207B734A00F0F640 /* MomentTextCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MomentTextCell.m; sourceTree = "<group>"; };
+		8034C8BF207B735900F0F640 /* MomentImagesCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MomentImagesCell.h; sourceTree = "<group>"; };
+		8034C8C0207B735900F0F640 /* MomentImagesCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MomentImagesCell.m; sourceTree = "<group>"; };
+		8034C8C2207B738800F0F640 /* MomentFooterCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MomentFooterCell.h; sourceTree = "<group>"; };
+		8034C8C3207B738800F0F640 /* MomentFooterCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MomentFooterCell.m; sourceTree = "<group>"; };
+		8034C8C5207B739600F0F640 /* MomentLikeItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MomentLikeItemCell.h; sourceTree = "<group>"; };
+		8034C8C6207B739600F0F640 /* MomentLikeItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MomentLikeItemCell.m; sourceTree = "<group>"; };
+		8034C8C8207B73A500F0F640 /* MomentCommentItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MomentCommentItemCell.h; sourceTree = "<group>"; };
+		8034C8C9207B73A500F0F640 /* MomentCommentItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MomentCommentItemCell.m; sourceTree = "<group>"; };
+		8034C8CF207B755400F0F640 /* MomentShowLocationCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MomentShowLocationCell.h; sourceTree = "<group>"; };
+		8034C8D0207B755400F0F640 /* MomentShowLocationCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MomentShowLocationCell.m; sourceTree = "<group>"; };
+		8034C8D2207B762B00F0F640 /* MomentShareLinkCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MomentShareLinkCell.h; sourceTree = "<group>"; };
+		8034C8D3207B762B00F0F640 /* MomentShareLinkCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MomentShareLinkCell.m; sourceTree = "<group>"; };
+		8034C8D5207C4A9000F0F640 /* Moment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Moment.h; sourceTree = "<group>"; };
+		8034C8D6207C4A9000F0F640 /* Moment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Moment.m; sourceTree = "<group>"; };
+		8034C8D8207C4A9900F0F640 /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		8034C8D9207C4A9900F0F640 /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		8034C8DB207C4AA500F0F640 /* Comment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Comment.h; sourceTree = "<group>"; };
+		8034C8DC207C4AA500F0F640 /* Comment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Comment.m; sourceTree = "<group>"; };
+		8034C8DF207C4C9000F0F640 /* moments.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = moments.json; sourceTree = "<group>"; };
+		8034C8E7207C544E00F0F640 /* Location.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		8034C8E8207C544E00F0F640 /* Location.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		8034C8F1207CBA9300F0F640 /* CellAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CellAdapter.h; sourceTree = "<group>"; };
+		8034C8F2207CBA9300F0F640 /* CellAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellAdapter.m; sourceTree = "<group>"; };
+		8034C8F4207CBF5900F0F640 /* MomentBaseCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MomentBaseCell.h; sourceTree = "<group>"; };
+		8034C8F5207CBF5900F0F640 /* MomentBaseCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MomentBaseCell.m; sourceTree = "<group>"; };
+		8034C8F7207DFD8900F0F640 /* MomentAdCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MomentAdCell.h; sourceTree = "<group>"; };
+		8034C8F8207DFD8900F0F640 /* MomentAdCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MomentAdCell.m; sourceTree = "<group>"; };
+		8034C8FA207E078200F0F640 /* Moment+AdapterMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Moment+AdapterMaker.h"; sourceTree = "<group>"; };
+		8034C8FB207E078200F0F640 /* Moment+AdapterMaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Moment+AdapterMaker.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8034C8A0207B703900F0F640 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8034C89A207B703900F0F640 = {
+			isa = PBXGroup;
+			children = (
+				8034C8A5207B703900F0F640 /* MomentCellDemo */,
+				8034C8A4207B703900F0F640 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8034C8A4207B703900F0F640 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8034C8A3207B703900F0F640 /* MomentCellDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8034C8A5207B703900F0F640 /* MomentCellDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8034C8A6207B703900F0F640 /* AppDelegate.h */,
+				8034C8A7207B703900F0F640 /* AppDelegate.m */,
+				8034C8A9207B703900F0F640 /* ViewController.h */,
+				8034C8AA207B703900F0F640 /* ViewController.m */,
+				8034C8AC207B703900F0F640 /* Main.storyboard */,
+				8034C8AF207B703900F0F640 /* Assets.xcassets */,
+				8034C8B1207B703900F0F640 /* LaunchScreen.storyboard */,
+				8034C8B4207B703900F0F640 /* Info.plist */,
+				8034C8B5207B703900F0F640 /* main.m */,
+				8034C8CB207B73D000F0F640 /* Views */,
+				8034C8DE207C4AAB00F0F640 /* Models */,
+				8034C8DF207C4C9000F0F640 /* moments.json */,
+			);
+			path = MomentCellDemo;
+			sourceTree = "<group>";
+		};
+		8034C8CB207B73D000F0F640 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8034C8BC207B734A00F0F640 /* MomentTextCell.h */,
+				8034C8BD207B734A00F0F640 /* MomentTextCell.m */,
+				8034C8BF207B735900F0F640 /* MomentImagesCell.h */,
+				8034C8C0207B735900F0F640 /* MomentImagesCell.m */,
+				8034C8C2207B738800F0F640 /* MomentFooterCell.h */,
+				8034C8C3207B738800F0F640 /* MomentFooterCell.m */,
+				8034C8C5207B739600F0F640 /* MomentLikeItemCell.h */,
+				8034C8C6207B739600F0F640 /* MomentLikeItemCell.m */,
+				8034C8C8207B73A500F0F640 /* MomentCommentItemCell.h */,
+				8034C8C9207B73A500F0F640 /* MomentCommentItemCell.m */,
+				8034C8CF207B755400F0F640 /* MomentShowLocationCell.h */,
+				8034C8D0207B755400F0F640 /* MomentShowLocationCell.m */,
+				8034C8D2207B762B00F0F640 /* MomentShareLinkCell.h */,
+				8034C8D3207B762B00F0F640 /* MomentShareLinkCell.m */,
+				8034C8F7207DFD8900F0F640 /* MomentAdCell.h */,
+				8034C8F8207DFD8900F0F640 /* MomentAdCell.m */,
+				8034C8F4207CBF5900F0F640 /* MomentBaseCell.h */,
+				8034C8F5207CBF5900F0F640 /* MomentBaseCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8034C8DE207C4AAB00F0F640 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8034C8D5207C4A9000F0F640 /* Moment.h */,
+				8034C8D6207C4A9000F0F640 /* Moment.m */,
+				8034C8FA207E078200F0F640 /* Moment+AdapterMaker.h */,
+				8034C8FB207E078200F0F640 /* Moment+AdapterMaker.m */,
+				8034C8D8207C4A9900F0F640 /* User.h */,
+				8034C8D9207C4A9900F0F640 /* User.m */,
+				8034C8DB207C4AA500F0F640 /* Comment.h */,
+				8034C8DC207C4AA500F0F640 /* Comment.m */,
+				8034C8E7207C544E00F0F640 /* Location.h */,
+				8034C8E8207C544E00F0F640 /* Location.m */,
+				8034C8F1207CBA9300F0F640 /* CellAdapter.h */,
+				8034C8F2207CBA9300F0F640 /* CellAdapter.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8034C8A2207B703900F0F640 /* MomentCellDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8034C8B9207B703900F0F640 /* Build configuration list for PBXNativeTarget "MomentCellDemo" */;
+			buildPhases = (
+				8034C89F207B703900F0F640 /* Sources */,
+				8034C8A0207B703900F0F640 /* Frameworks */,
+				8034C8A1207B703900F0F640 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MomentCellDemo;
+			productName = MomentCellDemo;
+			productReference = 8034C8A3207B703900F0F640 /* MomentCellDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8034C89B207B703900F0F640 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = GuessMe;
+				TargetAttributes = {
+					8034C8A2207B703900F0F640 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8034C89E207B703900F0F640 /* Build configuration list for PBXProject "MomentCellDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8034C89A207B703900F0F640;
+			productRefGroup = 8034C8A4207B703900F0F640 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8034C8A2207B703900F0F640 /* MomentCellDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8034C8A1207B703900F0F640 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8034C8B3207B703900F0F640 /* LaunchScreen.storyboard in Resources */,
+				8034C8B0207B703900F0F640 /* Assets.xcassets in Resources */,
+				8034C8AE207B703900F0F640 /* Main.storyboard in Resources */,
+				8034C8E0207C4C9000F0F640 /* moments.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8034C89F207B703900F0F640 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8034C8DA207C4A9900F0F640 /* User.m in Sources */,
+				8034C8E9207C544E00F0F640 /* Location.m in Sources */,
+				8034C8AB207B703900F0F640 /* ViewController.m in Sources */,
+				8034C8B6207B703900F0F640 /* main.m in Sources */,
+				8034C8D1207B755400F0F640 /* MomentShowLocationCell.m in Sources */,
+				8034C8C4207B738800F0F640 /* MomentFooterCell.m in Sources */,
+				8034C8FC207E078200F0F640 /* Moment+AdapterMaker.m in Sources */,
+				8034C8C1207B735900F0F640 /* MomentImagesCell.m in Sources */,
+				8034C8DD207C4AA500F0F640 /* Comment.m in Sources */,
+				8034C8F3207CBA9300F0F640 /* CellAdapter.m in Sources */,
+				8034C8F9207DFD8900F0F640 /* MomentAdCell.m in Sources */,
+				8034C8C7207B739600F0F640 /* MomentLikeItemCell.m in Sources */,
+				8034C8F6207CBF5900F0F640 /* MomentBaseCell.m in Sources */,
+				8034C8CA207B73A500F0F640 /* MomentCommentItemCell.m in Sources */,
+				8034C8BE207B734A00F0F640 /* MomentTextCell.m in Sources */,
+				8034C8D4207B762B00F0F640 /* MomentShareLinkCell.m in Sources */,
+				8034C8A8207B703900F0F640 /* AppDelegate.m in Sources */,
+				8034C8D7207C4A9000F0F640 /* Moment.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8034C8AC207B703900F0F640 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8034C8AD207B703900F0F640 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8034C8B1207B703900F0F640 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8034C8B2207B703900F0F640 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8034C8B7207B703900F0F640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8034C8B8207B703900F0F640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8034C8BA207B703900F0F640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MomentCellDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gm.MomentCellDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8034C8BB207B703900F0F640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MomentCellDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gm.MomentCellDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8034C89E207B703900F0F640 /* Build configuration list for PBXProject "MomentCellDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8034C8B7207B703900F0F640 /* Debug */,
+				8034C8B8207B703900F0F640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8034C8B9207B703900F0F640 /* Build configuration list for PBXNativeTarget "MomentCellDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8034C8BA207B703900F0F640 /* Debug */,
+				8034C8BB207B703900F0F640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8034C89B207B703900F0F640 /* Project object */;
+}

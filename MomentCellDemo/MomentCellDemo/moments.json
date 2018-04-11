@@ -1,0 +1,183 @@
+{
+	"status": 1,
+	"message": "",
+	"data": [
+			 {
+			 "id": 0,
+			 "text": "动态内容",
+			 "type": 0,
+			 "images": [
+						"http://xxx"
+						],
+			 "videoUrl": "",
+			 "linkUrl": "",
+			 "includeUsers": [],
+			 "excludeUsers": [],
+			 "isPrivate": false,
+			 "author": {
+			 "id": 0,
+			 "nickName": "用户",
+			 "avatarUrl": "http://xxx"
+			 },
+			 "location": {},
+			 "date": 2839283,
+			 "likes": [
+					   {
+					   "id": 0,
+					   "nickName": "用户1",
+					   "avatarUrl": "http://xxx"
+					   }
+					   ],
+			 "comments": [
+						  {
+						  "id": 0,
+						  "text": "评论内容",
+						  "author": {
+						  "id": 0,
+						  "nickName": "用户",
+						  "avatarUrl": "http://xxx"
+						  },
+						  "toUser": {}
+						  },
+						  {
+						  "id": 0,
+						  "text": "评论内容",
+						  "author": {
+						  "id": 0,
+						  "nickName": "用户",
+						  "avatarUrl": "http://xxx"
+						  },
+						  "toUser": {}
+						  },
+						  {
+						  "id": 0,
+						  "text": "评论内容",
+						  "author": {
+						  "id": 0,
+						  "nickName": "用户",
+						  "avatarUrl": "http://xxx"
+						  },
+						  "toUser": {}
+						  }
+						  ]
+			 },
+			 {
+			 "id": 0,
+			 "text": "分享链接内容",
+			 "type": 1,
+			 "images": [
+						"http://xxx"
+						],
+			 "videoUrl": "",
+			 "linkUrl": "",
+			 "includeUsers": [],
+			 "excludeUsers": [],
+			 "isPrivate": false,
+			 "author": {
+			 "id": 0,
+			 "nickName": "用户",
+			 "avatarUrl": "http://xxx"
+			 },
+			 "location": {},
+			 "date": 2839283,
+			 "likes": [
+					   {
+					   "id": 0,
+					   "nickName": "用户1",
+					   "avatarUrl": "http://xxx"
+					   }
+					   ],
+			 "comments": [
+						  {
+						  "id": 0,
+						  "text": "评论内容",
+						  "author": {
+						  "id": 0,
+						  "nickName": "用户",
+						  "avatarUrl": "http://xxx"
+						  },
+						  "toUser": {}
+						  },
+						  {
+						  "id": 0,
+						  "text": "评论内容",
+						  "author": {
+						  "id": 0,
+						  "nickName": "用户",
+						  "avatarUrl": "http://xxx"
+						  },
+						  "toUser": {}
+						  },
+						  {
+						  "id": 0,
+						  "text": "评论内容",
+						  "author": {
+						  "id": 0,
+						  "nickName": "用户",
+						  "avatarUrl": "http://xxx"
+						  },
+						  "toUser": {}
+						  }
+						  ]
+			 },
+			 {
+			 "id": 0,
+			 "text": "广告内容",
+			 "type": 2,
+			 "images": [
+						"http://xxx"
+						],
+			 "videoUrl": "",
+			 "linkUrl": "",
+			 "includeUsers": [],
+			 "excludeUsers": [],
+			 "isPrivate": false,
+			 "author": {
+			 "id": 0,
+			 "nickName": "用户",
+			 "avatarUrl": "http://xxx"
+			 },
+			 "location": {},
+			 "date": 2839283,
+			 "likes": [
+					   {
+					   "id": 0,
+					   "nickName": "用户1",
+					   "avatarUrl": "http://xxx"
+					   }
+					   ],
+			 "comments": [
+						  {
+						  "id": 0,
+						  "text": "评论内容",
+						  "author": {
+						  "id": 0,
+						  "nickName": "用户",
+						  "avatarUrl": "http://xxx"
+						  },
+						  "toUser": {}
+						  },
+						  {
+						  "id": 0,
+						  "text": "评论内容",
+						  "author": {
+						  "id": 0,
+						  "nickName": "用户",
+						  "avatarUrl": "http://xxx"
+						  },
+						  "toUser": {}
+						  },
+						  {
+						  "id": 0,
+						  "text": "评论内容",
+						  "author": {
+						  "id": 0,
+						  "nickName": "用户",
+						  "avatarUrl": "http://xxx"
+						  },
+						  "toUser": {}
+						  }
+						  ]
+			 }
+			 ]
+}
